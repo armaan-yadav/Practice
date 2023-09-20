@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+.card-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-section1-user {
+  display: flex;
+  gap: 4px;
+}
+.card-section1-user-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-section1-user-box p {
+  font-size: 10px;
+}
+.card-section1-dots {
+  color: #989898;
+}
+.card-section1-user img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #333;
+}
+.card-img {
+  margin-top: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.mySwiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+
+.card-functions svg {
+    background-color: gray;
+    fill: red;
+    stroke-width: 3;
+    stroke: black;
+
+}
